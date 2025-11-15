@@ -1,8 +1,24 @@
 .navbar {
     position: fixed;
     display: flex;
-    justify-content: center;
     align-items: center;
     inset:0 0 auto 0;
     gap: 16px;
+}
+
+.navbar .sections {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    inset:0 0 auto 0;
+    gap: 16px;
+    margin: 8px;
+}
+.navbar .socials {
+    position: fixed;
+    display: flex;
+    justify-content: right;
+    inset:0 0 auto 0;
+    gap: 8px;
+    margin: 8px;
 }

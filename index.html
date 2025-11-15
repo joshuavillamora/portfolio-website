@@ -1,19 +1,28 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Personal Portfolio Website</title>
     <link rel="stylesheet" href="style.css">
     <link rel="icon" type="image/jpg" href="assets/ari.jpg"/>
 </head>
 <body>
-    <div class="profile">
+    <nav class="navbar">
+        <a href="#profile" class="nav-link">Profile</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#hobbies" class="nav-link">Hobbies</a>
+        <a href="#achievements" class="nav-link">Achievements</a>
+        <a href="#projects" class="nav-link">Projects</a>
+    </nav>
+    <div id="profile">
         <div>
             <h1>Hi, I'm Earik</h1>
             <p>I am a first year BSCS student at West Visayas State University. I am interested in learning Cybersecurity and Backend Development.</p>
         </div>
     </div>
 
-    <div class="list">
+    <div id="list">
         <h2>Skills:</h2>
         <ol class="skills">
             <li>Coding</li>
@@ -28,16 +37,16 @@
         </ul>
     </div>
     
-    <div class="tables">
+    <div id="tables">
         <h2>Achivements</h2>
-        <table class="certification">
+        <table id="certification">
             <tr>
                 <td><img src="assets/certificate1.png" height="200px"></td>
                 <td><img src="assets/certificate2.png" height="200px"></td>
             </tr>
         </table>
         <h2>Projects</h2>
-        <table class="projects">
+        <table id="projects">
             <tr>
                 <td><img src="assets/documentationPage.png" height="200px"></td>
                 <td><img src="assets/registrationForm.png" height="200px"></td>

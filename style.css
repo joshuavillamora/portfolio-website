@@ -1,0 +1,8 @@
+.navbar {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    inset:0 0 auto 0;
+    gap: 16px;
+}

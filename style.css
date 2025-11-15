@@ -1,4 +1,9 @@
 @font-face {
+  font-family: 'futura';
+  src: url(fonts/Futura-Condensed-Extra-Bold.otf);
+}
+
+@font-face {
   font-family: 'poppins';
   src: url(fonts/Poppins-Regular.ttf);
 }
@@ -18,24 +23,45 @@ a {
 .navbar {
     width: 100%;
     height: 50px;
-    position: fixed;
+    position: absolute;
     display: flex;
-    justify-content: right;
+    justify-content: space-between;
     align-items: center;
     inset:0 0 auto 0;
     gap: 16px;
     background-color: #241643;
 }
 
-.navbar .sections {
-    display: flex;
-    gap: 24px;
-    margin: 8px;
+.navbar .logo {
+    font-family: futura;
+    font-size: 28px;
+    margin-left: 16px;
 }
 
+.navbar .sections {
+    display: flex;
+    gap: 16px;
+    margin: 8px;
+    margin-right: 16px;
+}
+
+
+.navbar .sections p {
+    border: 3px solid transparent;
+    padding: 4px 8px;
+}
+
+.navbar .sections p:hover {
+    background-color:#3d3361;
+    border: 3px solid #3d3361;
+    border-radius: 10px;
+}
+
+/*
 .navbar .socials {
     display: flex;
     gap: 8px;
     margin: 8px;
     text-decoration: none;
 }
+*/

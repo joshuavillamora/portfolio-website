@@ -277,10 +277,10 @@ h1 {
 }
 
 
-#education table, th, td {
+#education table, #education th, #education td {
     border: 2px solid #edd4fc; 
     border-collapse: collapse; 
 }
-#education th, td {
+#education th, #education td {
     padding: 8px;
 }

@@ -273,12 +273,12 @@ h1 {
     margin-top: 24px;
     background-color: #241643;
     border: 10spx solid #241643;
-    border-radius: 12px;
+    border-radius: 24px;
 }
 
 
 #education table, #education th, #education td {
-    border: 2px solid #edd4fc; 
+    border: 3px solid #291d4e; 
     border-collapse: collapse; 
 }
 #education th, #education td {

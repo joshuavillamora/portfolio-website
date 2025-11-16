@@ -15,14 +15,13 @@
 
 html {
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 body {
     font-family: poppins;
     color: #edd4fc;
     background-color: #291d4e ;
-    text-decoration: none;
-    margin: 0% 22% 0% 22%;
 }
 
 a {
@@ -37,6 +36,10 @@ hr {
 h1 {
     font-size: 40px;
     font-family: poppinsBold;
+}
+
+#main {
+    margin: 0% 22% 0% 22%;
 }
 
 #profile, #skills, #hobbies, #education, #projects, #achievements {
@@ -85,6 +88,8 @@ h1 {
 }
 
 #profile {
+    margin-left: 18%;
+    margin-right: 18%;
     margin-top: 200px;
     display: flex;
     justify-content: center;
@@ -101,6 +106,7 @@ h1 {
 }
 
 #profile p {
+    margin-left: 8px;
     font-size: 16px;
     font-family: poppins;
     margin-top: 0%;
@@ -298,4 +304,15 @@ h1 {
 
 #education th, #education td {
     padding: 8px;
+}
+
+#footer {
+    position: absolute;
+    width: 110%;
+    background-color: #241643;
+    color: white;
+    padding: 40px 0;
+    text-align: center;
+    margin: 0;
+    left: -5%;
 }

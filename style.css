@@ -63,15 +63,6 @@ a {
     border-radius: 10px;
 }
 
-/*
-.navbar .socials {
-    display: flex;
-    gap: 8px;
-    margin: 8px;
-    text-decoration: none;
-}
-*/
-
 #profile {
     margin-top: 75px;
     display: flex;
@@ -124,7 +115,7 @@ hr {
     color: #edd4fc;
 }
 
-#tables h2 {
+h1 {
     font-size: 24px;
     font-family: poppinsBold;
 }
@@ -140,4 +131,52 @@ hr {
     border-radius: 3px;
     height: 250px;
     margin: 30px;
+}
+
+#projects {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#projects img {
+    border-radius: 16px;
+    width: 350px;
+}
+
+.project {
+    background-color: #241643;
+    border: 10px solid #241643;
+    border-radius: 18px;
+    display: flex;
+    justify-content: top;
+    align-items: center;
+    flex-direction: column;
+    width: 350px;
+    height: 400px;
+    margin: 20px;
+}
+
+.project:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.25);
+}
+
+.project p {
+    margin-left: 16px;
+    margin-right: 16px;
+    font-size: 12px;
+}
+
+.project h3 {
+    font-family: poppinsBold;
+    margin-bottom: 0%;
+}
+
+.row1 {
+    display: flex;
+}
+
+.row2 {
+    display: flex;
 }

@@ -180,3 +180,57 @@ h1 {
 .row2 {
     display: flex;
 }
+
+#tools {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    margin-top: 24px;
+    margin-right: 24px;
+    gap: 80px;
+}
+
+
+#tools li img:hover {
+    transform: scale(1.05);
+}
+
+#js {
+    width: 180px;
+    border-radius: 20px;
+}
+
+#cpp {
+    width: 200px;
+}
+
+#godot {
+    width: 200px;
+}
+
+#skill-description {
+    margin: 20px auto 0px auto;
+    padding: 15px;
+    background: #241643;
+    border-radius: 12px;
+    width: 800px;
+    height: 75px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+}
+
+#tool {
+    font-family: poppins;
+    font-size: 24px;
+    margin-left: 4%;
+    margin-right: 8%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+#description {
+    margin-left: 8%;
+    margin-right: 8%;
+}

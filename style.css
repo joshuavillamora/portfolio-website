@@ -13,6 +13,10 @@
   src: url(fonts/Poppins-Regular.ttf);
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: poppins;
     color: #edd4fc;
@@ -33,6 +37,10 @@ hr {
 h1 {
     font-size: 40px;
     font-family: poppinsBold;
+}
+
+#profile, #skills, #hobbies, #education, #projects, #achievements {
+    scroll-margin-top: 220px; /* height of navbar + some spacing */
 }
 
 .navbar {
@@ -73,7 +81,7 @@ h1 {
 }
 
 #skills, #hobbies, #education, #projects, #achievements {
-    margin-top: 300px;
+    margin-top: 350px;
 }
 
 #profile {

@@ -138,7 +138,7 @@ h1 {
     transform: scale(1.05);
 }
 
-#projects {
+#projects .table {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -276,11 +276,11 @@ h1 {
     border-radius: 24px;
 }
 
-
 #education table, #education th, #education td {
     border: 3px solid #291d4e; 
-    border-collapse: collapse; 
+    border-collapse: collapse;  
 }
+
 #education th, #education td {
     padding: 8px;
 }

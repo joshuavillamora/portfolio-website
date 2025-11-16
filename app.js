@@ -10,8 +10,6 @@ const godot = document.getElementById("godot");
 const tool = document.getElementById("tool");
 const description = document.getElementById("description");
 
-
-
 cpp.addEventListener('click', () => {
     tool.innerHTML = "C++";
     description.innerHTML = descriptions.cpp;

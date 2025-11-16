@@ -234,3 +234,32 @@ h1 {
     margin-left: 8%;
     margin-right: 8%;
 }
+
+#hobbies ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 32px;
+    margin-right: 39px;
+}
+
+.hobby {
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    background: #241643;
+    border: 20px solid #241643;
+    border-radius: 12px;
+}
+
+.hobby h3 {
+    font-family: poppinsBold;
+}
+
+.hobby p {
+    margin-left: 8%;
+    margin-right: 8%;
+    font-size: 14px;
+}

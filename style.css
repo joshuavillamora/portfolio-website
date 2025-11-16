@@ -268,3 +268,19 @@ h1 {
     margin-right: 8%;
     font-size: 14px;
 }
+
+#education table {
+    margin-top: 24px;
+    background-color: #241643;
+    border: 10spx solid #241643;
+    border-radius: 12px;
+}
+
+
+#education table, th, td {
+    border: 2px solid #edd4fc; 
+    border-collapse: collapse; 
+}
+#education th, td {
+    padding: 8px;
+}
